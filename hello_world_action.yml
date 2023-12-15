@@ -1,19 +1,11 @@
 name: Run Shell Command
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
 
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
     - name: Run a Shell Command
-      run: |
-        echo "Hello, this is a shell command."
+      run: echo "Hello, this is a shell command."
       
