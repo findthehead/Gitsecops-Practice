@@ -1,3 +1,3 @@
 # Gitsecops-Practice
 
-this is a devesecops practice in github environment
+this is a devsecops lab repo for github environment
